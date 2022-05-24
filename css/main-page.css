@@ -1,0 +1,182 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main .main-promo_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Verdana, sans-serif;
+}
+.main .main-promo_block .main-promo_title {
+  margin-top: 100px;
+  font-size: 60px;
+  color: #9db0d1;
+}
+.main .main-promo_block .main-promo_subtitle {
+  font-size: 20px;
+  text-align: center;
+  padding: 50px 208px;
+}
+.main .main-promo_block .main-promo_button {
+  font-family: Arapey, serif;
+  font-size: 30px;
+  color: white;
+  background-color: #ebac87;
+  padding: 24px 50px;
+  border-radius: 10px;
+}
+.main .main-promo_block .main-promo_points {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  padding: 50px 129px;
+}
+.main .main-promo_block .main-promo_points .main-promo_point {
+  display: flex;
+  align-items: center;
+}
+.main .main-promo_block .main-promo_points .main-promo_point .bullet {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: #9db0d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-info_block .main-info_title {
+  font-size: 40px;
+  text-align: center;
+  background: url(../img/background-clouds.svg) repeat-x top/auto 200px, linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 50px;
+  line-height: 44px;
+}
+.main .main-info_block .main-info_cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #87c6eb;
+  padding: 0 120px;
+}
+.main .main-info_block .main-info_cards .main-info_card {
+  background-color: white;
+  width: 350px;
+  height: 560px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.main .main-info_block .main-info_cards .main-info_card .card_number {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgba(235, 172, 135, 0.6);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main .main-info_block .main-info_cards .main-info_card .card_number.num-3 {
+  background-color: #ebac87;
+}
+.main .main-info_block .main-info_cards .main-info_card img {
+  height: 310px;
+  background-color: #ebac87;
+  margin: 10px 0 20px 0;
+}
+.main .main-info_block .main-info_cards .main-info_card .card_text {
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  line-height: normal;
+}
+.main .main-info_block .main-info_cards .main-info_card .card_text .bold {
+  font-weight: 700;
+}
+.main .main-cta_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 120px 50px;
+  background: url(../img/background-mount.png) no-repeat right bottom/auto 475px, #87C6EB;
+}
+.main .main-cta_container .main-cta_block {
+  font-family: Verdana, sans-serif;
+  width: 600px;
+  margin-top: 75px;
+}
+.main .main-cta_container .main-cta_block .main-cta_block--title {
+  color: white;
+  font-size: 40px;
+}
+.main .main-cta_container .main-cta_block .main-cta_block--subtitle {
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  margin: 50px 0;
+  line-height: normal;
+}
+.main .main-cta_container .main-cta_block .main-cta_block--subtitle a.underlined {
+  text-decoration: underline;
+  color: black;
+}
+.main .main-cta_container .main-cta_block .main-cta_button {
+  font-family: Arapey, serif;
+  width: 220px;
+  height: 80px;
+  padding: 24px 50px;
+  background-color: white;
+  border-radius: 10px;
+  line-height: 32px;
+  font-size: 30px;
+  color: #ebac87;
+}
+.main .main-cta_container .question-mark_button {
+  font-family: Verdana, serif;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  color: white;
+  background-color: #ebac87;
+  border-radius: 50%;
+  align-self: flex-end;
+}
+
+.footer-container {
+  padding: 0 7.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 180px;
+  width: 100%;
+}
+.footer .footer-cta_button {
+  font-family: Arapey, serif;
+  width: 267px;
+  height: 80px;
+  padding: 24px 50px;
+  background-color: #ebac87;
+  border-radius: 10px;
+  line-height: 32px;
+  font-size: 30px;
+  color: white;
+}
+.footer .footer-links {
+  display: flex;
+}
+
+h1, h2, h3 {
+  font-family: Arapey, serif;
+}
+
+/*# sourceMappingURL=main-page.css.map */
