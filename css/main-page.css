@@ -9,6 +9,8 @@ a {
   align-items: center;
   justify-content: space-between;
   font-family: Verdana, sans-serif;
+  max-width: 1440px;
+  margin: auto;
 }
 .main .main-promo_block .main-promo_title {
   margin-top: 100px;
@@ -18,7 +20,7 @@ a {
 .main .main-promo_block .main-promo_subtitle {
   font-size: 20px;
   text-align: center;
-  padding: 50px 208px;
+  padding: 50px 0;
 }
 .main .main-promo_block .main-promo_button {
   font-family: Arapey, serif;
@@ -27,13 +29,14 @@ a {
   background-color: #ebac87;
   padding: 24px 50px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .main .main-promo_block .main-promo_points {
   width: 100%;
   display: flex;
   justify-content: space-around;
   font-size: 20px;
-  padding: 50px 129px;
+  padding: 50px 0;
 }
 .main .main-promo_block .main-promo_points .main-promo_point {
   display: flex;
@@ -49,6 +52,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+.main .main-info_block {
+  max-width: 1440px;
+  margin: auto;
+}
 .main .main-info_block .main-info_title {
   font-size: 40px;
   text-align: center;
@@ -58,15 +65,13 @@ a {
 }
 .main .main-info_block .main-info_cards {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items: stretch;
   background-color: #87c6eb;
-  padding: 0 120px;
 }
 .main .main-info_block .main-info_cards .main-info_card {
   background-color: white;
   width: 350px;
-  height: 560px;
   padding: 20px;
   border-radius: 10px;
   display: flex;
@@ -87,7 +92,7 @@ a {
   background-color: #ebac87;
 }
 .main .main-info_block .main-info_cards .main-info_card img {
-  height: 310px;
+  width: 100%;
   background-color: #ebac87;
   margin: 10px 0 20px 0;
 }
@@ -126,31 +131,33 @@ a {
 }
 .main .main-cta_container .main-cta_block .main-cta_button {
   font-family: Arapey, serif;
-  width: 220px;
-  height: 80px;
   padding: 24px 50px;
   background-color: white;
   border-radius: 10px;
   line-height: 32px;
   font-size: 30px;
   color: #ebac87;
+  cursor: pointer;
 }
 .main .main-cta_container .question-mark_button {
   font-family: Verdana, serif;
   font-size: 60px;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  width: 80px;
   color: white;
   background-color: #ebac87;
   border-radius: 50%;
   align-self: flex-end;
+  cursor: pointer;
 }
 
 .footer-container {
   padding: 0 7.5rem;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .footer {
@@ -158,18 +165,16 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 180px;
-  width: 100%;
 }
 .footer .footer-cta_button {
   font-family: Arapey, serif;
-  width: 267px;
-  height: 80px;
   padding: 24px 50px;
   background-color: #ebac87;
   border-radius: 10px;
   line-height: 32px;
   font-size: 30px;
   color: white;
+  cursor: pointer;
 }
 .footer .footer-links {
   display: flex;
